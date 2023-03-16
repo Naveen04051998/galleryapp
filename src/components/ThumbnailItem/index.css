@@ -1,0 +1,30 @@
+/* Write your code here. */
+.thumbnail-list-item {
+  margin-right: 16px;
+  margin-bottom: 16px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.thumbnail-button {
+  background: transparent;
+  border: none;
+  padding: 0;
+  outline: none;
+  cursor: pointer;
+  flex-direction: row;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.thumbnail {
+  width: 60px;
+  height: 60px;
+  opacity: 0.5;
+}
+
+.active {
+  opacity: 1;
+}
